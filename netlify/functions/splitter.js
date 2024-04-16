@@ -20,7 +20,7 @@ exports.handler = async function(event, context) {
 
     return {
         statusCode: 200,
-        body: JSON.stringify({ message: "Success!", data: docs }),
+        body: JSON.stringify({ reply: "this is the answer to our question"}),
         headers: { 'Content-Type': 'application/json' },
     };
 };
